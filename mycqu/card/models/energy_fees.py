@@ -39,8 +39,8 @@ class EnergyFees(BaseModel):
         if is_huxi:
             return EnergyFees(
                 balance=data["剩余金额"],
-                electricity_subsidy=data["电剩余补助"],
-                water_subsidy=data["水剩余补助"],
+                electricity_subsidy=data["电剩余补助（度）"],
+                water_subsidy=data["水剩余补助（吨）"],
                 subsidies=None,
             )
         else:
