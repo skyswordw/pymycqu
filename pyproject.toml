@@ -24,6 +24,7 @@ pydantic = "^2"
 pycryptodome = {version = "^3", optional = true}
 pycryptodomex = "^3"
 pytz = "*"
+ddddocr = "^1.4.7"
 
 [tool.poetry.extras]
 
