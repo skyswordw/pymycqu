@@ -66,8 +66,8 @@ def demo_low_balance_alert():
     
     if electricity_balance < THRESHOLD or water_balance < THRESHOLD:
         alert_message = f"""
+        
 # ⚠️ 水电费余额不足提醒
-
 ## 当前余额
 - 电费余额：**¥{electricity_balance:.2f}**
 - 水费余额：**¥{water_balance:.2f}**
